@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JoKenPo Expansion</string>
+    <string name="play_classic">Clássico</string>
+    <string name="play_expansion">Expansão</string>
+    <string name="rules">Regras</string>
+    <string name="win">Vitórias</string>
+    <string name="loss">Derrotas</string>
+    <string name="classic_mode">Modo Clássico</string>
+    <string name="expansion_mode">Modo Expansão</string>
+    <string name="credits">Créditos</string>
+
+
+</resources>
