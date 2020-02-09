@@ -66,19 +66,19 @@ public class ExpansionGameActivity extends AppCompatActivity {
 
         switch (adversary) {
             case "rock":
-                imagePattern.setImageResource(R.drawable.rockadversary);
+                imagePattern.setImageResource(R.drawable.rock);
                 break;
             case "scissor":
-                imagePattern.setImageResource(R.drawable.scissoradversary);
+                imagePattern.setImageResource(R.drawable.scissor);
                 break;
             case "paper":
-                imagePattern.setImageResource(R.drawable.paperadversary);
+                imagePattern.setImageResource(R.drawable.paper);
                 break;
             case "lizard":
-                imagePattern.setImageResource(R.drawable.lizardadversary);
+                imagePattern.setImageResource(R.drawable.lizard);
                 break;
             case "spock":
-                imagePattern.setImageResource(R.drawable.spockadversary);
+                imagePattern.setImageResource(R.drawable.spock);
                 break;
         }
 
@@ -112,17 +112,5 @@ public class ExpansionGameActivity extends AppCompatActivity {
         } else {
             result.setText("Empate");
         }
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-        finish();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        finish();
     }
 }

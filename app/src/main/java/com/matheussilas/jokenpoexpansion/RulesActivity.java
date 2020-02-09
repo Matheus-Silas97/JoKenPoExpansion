@@ -57,4 +57,16 @@ public class RulesActivity extends AppCompatActivity {
         alertDialog.setPositiveButton("OK", null);
         alertDialog.show();
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        finish();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        finish();
+    }
 }

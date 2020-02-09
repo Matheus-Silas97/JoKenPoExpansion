@@ -58,13 +58,13 @@ public class ClassicGameActivity extends AppCompatActivity {
 
         switch (adversary) {
             case "rock":
-                imagePattern.setImageResource(R.drawable.rockadversary);
+                imagePattern.setImageResource(R.drawable.rock);
                 break;
             case "scissor":
-                imagePattern.setImageResource(R.drawable.scissoradversary);
+                imagePattern.setImageResource(R.drawable.scissor);
                 break;
             case "paper":
-                imagePattern.setImageResource(R.drawable.paperadversary);
+                imagePattern.setImageResource(R.drawable.paper);
                 break;
         }
 
@@ -81,15 +81,4 @@ public class ClassicGameActivity extends AppCompatActivity {
         }
     }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        finish();
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        finish();
-    }
 }
