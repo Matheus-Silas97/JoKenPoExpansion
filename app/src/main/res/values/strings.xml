@@ -8,6 +8,8 @@
     <string name="classic_mode">Modo Clássico</string>
     <string name="expansion_mode">Modo Expansão</string>
     <string name="credits">Créditos</string>
+    <string name="adversary">Oponente</string>
+    <string name="player">Jogador</string>
 
 
 </resources>

@@ -18,6 +18,7 @@ public class ClassicGameActivity extends AppCompatActivity {
     TextView result;
     TextView winScore;
     TextView lossScore;
+    TextView player;
     int win = 0;
     int loss = 0;
 
@@ -31,9 +32,17 @@ public class ClassicGameActivity extends AppCompatActivity {
         result = findViewById(R.id.result);
         winScore = findViewById(R.id.winScore);
         lossScore = findViewById(R.id.lossScore);
+        player = findViewById(R.id.player);
 
         getSupportActionBar().setTitle("Modo Clássico");
+
+        Bundle data = getIntent().getExtras();
+        if (data != null) {
+            String name = data.getString("name");
+            player.setText(name);
+        }
     }
+
 
     public void playerRock(View view) {
         this.selection("rock");
