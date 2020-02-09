@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/backgroundPlayers" />
+        app:srcCompat="@drawable/backgroundplayers" />
 
     <ImageView
         android:id="@+id/patternPlayer"
@@ -26,7 +26,7 @@
         app:layout_constraintBottom_toTopOf="@+id/paper"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/backgroundPlayers" />
+        app:srcCompat="@drawable/backgroundplayers" />
 
     <ImageView
         android:id="@+id/rock"
