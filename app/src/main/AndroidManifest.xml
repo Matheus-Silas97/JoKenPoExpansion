@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".RulesActivity" />
-        <activity android:name=".ExpansionGameActivity" />
-        <activity android:name=".ClassicGameActivity" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".RulesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ExpansionGameActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ClassicGameActivity"
+            android:screenOrientation="portrait"/>
         <activity android:name=".SplashScreen"
             android:screenOrientation="portrait">
 

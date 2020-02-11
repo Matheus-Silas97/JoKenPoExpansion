@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">JoKenPo Expansion</string>
-    <string name="play_classic">Clássico</string>
-    <string name="play_expansion">Expansão</string>
+    <string name="play_classic">Modo Clássico</string>
+    <string name="play_expansion">Modo Expansão</string>
     <string name="rules">Regras</string>
     <string name="win">Vitórias</string>
     <string name="loss">Derrotas</string>
@@ -10,6 +10,8 @@
     <string name="credits">Créditos</string>
     <string name="adversary">Oponente</string>
     <string name="player">Jogador</string>
+    <string name="user_name">Digite seu nome (opcional)</string>
+    <string name="choise">Escolha uma das opções abaixo</string>
 
 
 </resources>
