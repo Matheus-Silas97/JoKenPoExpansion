@@ -69,4 +69,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), RulesActivity.class);
         startActivity(intent);
     }
+
+    @Override
+    protected void onStop() {
+        preferences.savePlayer(playerName.getText().toString());
+        super.onStop();
+    }
+
+    @Override
+    protected void onPause() {
+        preferences.savePlayer(playerName.getText().toString());
+        super.onPause();
+    }
 }
