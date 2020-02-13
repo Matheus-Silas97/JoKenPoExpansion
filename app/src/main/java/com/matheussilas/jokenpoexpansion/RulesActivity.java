@@ -26,8 +26,8 @@ public class RulesActivity extends AppCompatActivity {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
         alertDialog.setTitle("Modo Clássico");
         alertDialog.setMessage("-Pedra ganha de Tesoura\n" +
-                "-Tesoura ganha de Papel\n" +
-                "-Papel ganha de Pedra");
+                "-Tesoura vence Papel\n" +
+                "-Papel vence Pedra");
         alertDialog.setPositiveButton("OK", null);
         alertDialog.show();
     }
@@ -35,16 +35,16 @@ public class RulesActivity extends AppCompatActivity {
     public void rulesExpansion(View view) {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
         alertDialog.setTitle("Modo Expansão");
-        alertDialog.setMessage("-Pedra ganha de lagarto\n" +
-                "-Pedra ganha de tesoura\n" +
-                "-Papel ganha de Spock\n" +
-                "-Papel ganha de Pedra\n" +
-                "-Tesoura ganha de lagarto\n" +
-                "-Tesoura ganha de Papel\n" +
-                "-Lagarto ganha de papel\n" +
-                "-Lagarto ganha de Spock\n" +
-                "-Spock ganha de tesoura\n" +
-                "-Spock ganha de pedra");
+        alertDialog.setMessage("-Pedra vence lagarto\n" +
+                "-Pedra vence tesoura\n" +
+                "-Papel vence Spock\n" +
+                "-Papel vence Pedra\n" +
+                "-Tesoura vence lagarto\n" +
+                "-Tesoura vence Papel\n" +
+                "-Lagarto vence papel\n" +
+                "-Lagarto vence Spock\n" +
+                "-Spock vence tesoura\n" +
+                "-Spock vence pedra");
         alertDialog.setPositiveButton("OK", null);
         alertDialog.show();
     }
