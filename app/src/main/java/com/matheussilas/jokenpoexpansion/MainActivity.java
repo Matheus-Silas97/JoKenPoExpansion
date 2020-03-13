@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(getApplicationContext(), ClassicGameActivity.class);
         if (playerName.getText().toString().equals("")) {
-            intent.putExtra("name", "Jogador");
+            intent.putExtra("name", "Player");
         } else {
             intent.putExtra("name", playerName.getText().toString());
         }
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(getApplicationContext(), ExpansionGameActivity.class);
         if (playerName.getText().toString().equals("")) {
-            intent.putExtra("name", "Jogador");
+            intent.putExtra("name", "Player");
         } else {
             intent.putExtra("name", playerName.getText().toString());
         }
