@@ -10,4 +10,6 @@ menção em um episódio na Sitcom The Big Bang Theory.
 
 A aplicação consiste nas duas opções de jogo e as regras do mesmo.
 
-Aplicação possui placar de Vitórias e Derrotas e Opção de colocar o nome do jogador.
+Aplicação possui placar de Vitórias e Derrotas e Opção de colocar o nome personalizado do jogador.
+
+
